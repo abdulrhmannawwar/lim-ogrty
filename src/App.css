@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap");
+
+:root {
+    --first-color: #a2a1d0;
+    --second-color: #1b1833;
+}
+body {
+    background-color: var(--second-color);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a2a1d0;
+}
+.container {
+    margin: 20px auto;
+    text-align: center;
+}
+.logo {
+    font-size: 60px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+}
+.logo-1st {
+    color: var(--first-color);
+}
+.logo-2nd {
+    color: var(--second-color);
+    background-color: var(--first-color);
+    padding: 10px;
+}
+.author {
+    margin: 15px;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--first-color);
+}
+.instructions {
+    max-width: 500px;
+    width: 300px;
+    font-size: 15px;
+    margin: 0 auto;
+    direction: rtl;
+}
+.calcArea {
+    margin: 20px auto;
+    font-size: 30px;
+}
+.passengersLength {
+    margin: 20px auto;
+    font-size: 30px;
+}
+.rtl {
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.input {
+    font-size: 15px;
+    height: 20px;
+    width: 40px;
+    margin: 0 10px;
+    color: #0c1e3a;
+    text-align: center;
+    border: 0;
+    border-bottom: 2px solid var(--first-color);
+    background-color: #a1c5f5;
+    border-radius: 5px;
+}
+input:focus {
+    outline: none;
+}
+.whatToCalc {
+    font-size: 20px;
+    margin: 30px;
+}
+.text {
+    min-width: 50px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.passenger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    font-size: 20px;
+    margin: 10px;
+}
+.passengerInfo {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.addPassenger {
+    margin: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    background-color: #39395fee;
+    color: #a6c3c8dd;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.addPassenger:hover {
+    background-color: #24247fee;
+}
+.calculate {
+    margin: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    background-color: #29292dee;
+    color: #bebebeee;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.calculate:hover {
+    background-color: #1b1b1bee;
+}
